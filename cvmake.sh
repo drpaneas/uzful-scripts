@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 app=`echo $1 | awk -F "." '{ print $1 }'`;
 
 if [ -f CMakeLists.txt ]
