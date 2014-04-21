@@ -35,7 +35,7 @@ tv_function()
     mkdir $DIR_SEASON 2> /dev/null
     echo $FILENAME
     echo $DIR_SEASON
-    mv $FILENAME "${DIR_SEASON}/${TITLE} S${SEASON}E${EPISODE}.${EXT}"
+    mv $FILENAME "${DIR_SEASON}/${TITLE} - S${SEASON}E${EPISODE}.${EXT}"
 }
 
 echo "Select number: 1 (movie) or 2 (tv) or 0 to Exit"
