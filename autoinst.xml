@@ -335,11 +335,6 @@
       <userlist/>
     </group>
   </groups>
-  <kdump>
-    <add_crash_kernel config:type="boolean">false</add_crash_kernel>
-    <crash_kernel config:type="list"/>
-    <general/>
-  </kdump>
   <keyboard>
     <keyboard_values>
       <delay/>
@@ -397,32 +392,6 @@
       <ipv6_forward config:type="boolean">false</ipv6_forward>
     </routing>
   </networking>
-  <ntp-client>
-    <ntp_policy>auto</ntp_policy>
-    <peers config:type="list">
-      <peer>
-        <address>0.opensuse.pool.ntp.org</address>
-        <type>server</type>
-      </peer>
-      <peer>
-        <address>1.opensuse.pool.ntp.org</address>
-        <type>server</type>
-      </peer>
-      <peer>
-        <address>2.opensuse.pool.ntp.org</address>
-        <type>server</type>
-      </peer>
-      <peer>
-        <address>3.opensuse.pool.ntp.org</address>
-        <type>server</type>
-      </peer>
-    </peers>
-    <restricts config:type="list"/>
-    <start_at_boot config:type="boolean">true</start_at_boot>
-    <start_in_chroot config:type="boolean">false</start_in_chroot>
-    <sync_interval config:type="integer">5</sync_interval>
-    <synchronize_time config:type="boolean">false</synchronize_time>
-  </ntp-client>
   <partitioning config:type="list">
     <drive>
       <device>/dev/sda</device>
