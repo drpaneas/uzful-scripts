@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Modify system repositories (add packman)
-zypper ar -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_42.1/ packman
+zypper ar -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_42.2/ packman
 
 # Refresh system repositories
 zypper ref
