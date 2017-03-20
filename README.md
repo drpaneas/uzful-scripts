@@ -21,4 +21,4 @@ plexum.sh -- Renames approriately the media files and move them into Plex folder
 jubler2avid.sh -- Converts the *.stl file into *.txt ready for Avid Media
 Composer
 
-
+docker-tags.sh -- Returns you a list of the tags provided a DockerHub image name
