@@ -22,3 +22,6 @@ jubler2avid.sh -- Converts the *.stl file into *.txt ready for Avid Media
 Composer
 
 docker-tags.sh -- Returns you a list of the tags provided a DockerHub image name
+
+minikube_version.sh -- Sends me an e-mail if new version of minikube gets released
+                       crontab -e:            0 14 * * * /root/minikube_version.sh
